@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/adria/boat and island
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63055
+Successfully changed project path to: C:/Users/adria/boat and island
+C:/Users/adria/boat and island
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31688] Host "[IP] 172.19.180.246 [Port] 0 [Flags] 2 [Guid] 2459305234 [EditorId] 2459305234 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DSPED7GC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31688] Host "[IP] 172.19.180.246 [Port] 0 [Flags] 2 [Guid] 2459305234 [EditorId] 2459305234 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DSPED7GC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 85.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adria/boat and island/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005819 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adria\boat and island\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adria\boat and island\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3185 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (399.8 KB). Loaded Objects now: 3660.
+Memory consumption went from 141.4 MB to 141.0 MB.
+Total: 2.973100 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.210000 ms MarkObjects: 2.352800 ms  DeleteObjects: 0.157800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1275541.540630 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles
+  artifactKey: Guid(8100eda82b94a7a4d926842e3fdadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles using Guid(8100eda82b94a7a4d926842e3fdadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9fde36e7bd2b1934ffffbeb71b4552') in 0.016402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034554 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Blue with Label.prefab
+  artifactKey: Guid(adffeaf7a5f1f6a49b3d7d275ca84f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Blue with Label.prefab using Guid(adffeaf7a5f1f6a49b3d7d275ca84f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea95a03cb8d757b84e6046d8036bbe2d') in 0.230946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red with Label.prefab
+  artifactKey: Guid(0978379453ae6ac4ea619bc92a25e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Beer Bottle Red with Label.prefab using Guid(0978379453ae6ac4ea619bc92a25e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a096c8239f07a5283dabd1ee4e8285') in 0.045243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke 2.prefab
+  artifactKey: Guid(942c90e4df32d33408f1180d942db9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/High Poly/Glass Bottles/Wine Bottle Green Broke 2.prefab using Guid(942c90e4df32d33408f1180d942db9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977652967c06f3faf10827ec8256b4a') in 0.020966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 808.045275 seconds.
+  path: Assets/Import/Recycled_paper_bag/Recycled_paper_bag.prefab
+  artifactKey: Guid(ced76c4c808f0c24aafdd0e0cb055653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Recycled_paper_bag/Recycled_paper_bag.prefab using Guid(ced76c4c808f0c24aafdd0e0cb055653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9d6bf5cb129191c2affcf38114ebfa') in 0.422322 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007945 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\adria\boat and island\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\adria\boat and island\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.716 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1717ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1372ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (366.8 KB). Loaded Objects now: 3671.
+Memory consumption went from 142.6 MB to 142.2 MB.
+Total: 5.173100 ms (FindLiveObjects: 0.469600 ms CreateObjectMapping: 0.371200 ms MarkObjects: 4.138800 ms  DeleteObjects: 0.191700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 851.046916 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/Prefab/paper1 Prefab.prefab
+  artifactKey: Guid(fa33d18afd756a1488e49fedab41b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/Prefab/paper1 Prefab.prefab using Guid(fa33d18afd756a1488e49fedab41b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a659eb95a774d2819c150fccc6e9fd6b') in 0.070295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/Prefab/paper3 Prefab.prefab
+  artifactKey: Guid(667bb58d8ba51214bad0565a4c79cb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/Prefab/paper3 Prefab.prefab using Guid(667bb58d8ba51214bad0565a4c79cb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cc6b90198c51ada432cf63475796f6') in 0.014625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.233639 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Cone/Materials/Cone LOD0.mat
+  artifactKey: Guid(b9347f937e5fccc4590a9c9ad658c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Cone/Materials/Cone LOD0.mat using Guid(b9347f937e5fccc4590a9c9ad658c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf2ac924acdb55f11632f023e897f9e') in 0.045740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.347433 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Cone/Prefab/Cone Prefabs.prefab
+  artifactKey: Guid(d3940112fa8706b42a357be50ebe6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Cone/Prefab/Cone Prefabs.prefab using Guid(d3940112fa8706b42a357be50ebe6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3575a9947e009a37a7ca020fb395fe') in 0.018846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.587808 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Public Gerbage/Material/Public Gerbage LOD0.mat
+  artifactKey: Guid(b9147cc525379004aa063815c885d4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Public Gerbage/Material/Public Gerbage LOD0.mat using Guid(b9147cc525379004aa063815c885d4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26982497d740975fa4e2678cd2260663') in 0.028291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.508980 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Public Gerbage/Prefab/Public Gerbage Prefab.prefab
+  artifactKey: Guid(467a8e0894244d94dac8cc96c6a431d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Public Gerbage/Prefab/Public Gerbage Prefab.prefab using Guid(467a8e0894244d94dac8cc96c6a431d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21001a93d4f4ce5f2c475e0cd847e068') in 0.025003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.118233 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Public Gerbage/Public Gerbage.fbx
+  artifactKey: Guid(6f008a28ee1dfe74d8eaa4582eeaf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Public Gerbage/Public Gerbage.fbx using Guid(6f008a28ee1dfe74d8eaa4582eeaf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aad803c915d73880c7bb6d7da5f984') in 0.073988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.140913 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/paper1.fbx
+  artifactKey: Guid(f56ec7d4a112d31489f3e11b4b6859b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/paper1.fbx using Guid(f56ec7d4a112d31489f3e11b4b6859b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d89682f95fc04f7c99013eca62e161e') in 0.023027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/paper4.fbx
+  artifactKey: Guid(ef2d18c1212850143be3e31a58c0d898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/paper4.fbx using Guid(ef2d18c1212850143be3e31a58c0d898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada9e0e95a7d1fdd9955013da4135ae2') in 0.027706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.046063 seconds.
+  path: Assets/City Assets Volume 1 -FREE/TrashCup/TrashCup1.fbx
+  artifactKey: Guid(fe27c1bdfc8f1864d9b03e36a4133e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/TrashCup/TrashCup1.fbx using Guid(fe27c1bdfc8f1864d9b03e36a4133e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c153b73b5efab74dc917bddd9768ad') in 0.039153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.501523 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/Textures
+  artifactKey: Guid(3f0497bee9ab14f40b3818bbda6f6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/Textures using Guid(3f0497bee9ab14f40b3818bbda6f6eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6615273d6d50a82fcf067addc381e06') in 0.006556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113253 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/Textures/COVER TEXTURE 1.png
+  artifactKey: Guid(94247b38b4c6b1a43ad142945dc3dea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/Textures/COVER TEXTURE 1.png using Guid(94247b38b4c6b1a43ad142945dc3dea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc512d5b05abaffee309ddbc69b93d77') in 0.025130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Assets Volume 1 -FREE/Paper/Textures/tts Texture 1.png
+  artifactKey: Guid(4909351b9b890da4b808823de0e9410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Assets Volume 1 -FREE/Paper/Textures/tts Texture 1.png using Guid(4909351b9b890da4b808823de0e9410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a900d35b4ef51b1ec6ccb638975e1e93') in 0.011974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.607920 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly
+  artifactKey: Guid(9eaf2b4d7460be4498eda94c39cfaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly using Guid(9eaf2b4d7460be4498eda94c39cfaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352c09bd6372fb8fb5723d37fc6f776') in 0.017927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760676 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans
+  artifactKey: Guid(78e422c909bed3f42bc465311d60f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans using Guid(78e422c909bed3f42bc465311d60f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d5d7d9d05215d21d857b7099e2de37') in 0.007298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054445 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Beer Can Blue Crushed.prefab
+  artifactKey: Guid(7690bf91c4240ca4b876e0de5b4034af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Beer Can Blue Crushed.prefab using Guid(7690bf91c4240ca4b876e0de5b4034af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5c958d0220d354573c1639d3354be3') in 0.030523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007398 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Beer Can Green.prefab
+  artifactKey: Guid(86cd66e551e6e1748aee29ef7980b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Beer Can Green.prefab using Guid(86cd66e551e6e1748aee29ef7980b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af11135a2c28a6315367d57043564fd') in 0.025231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Green.prefab
+  artifactKey: Guid(c840387747cb48f409bf9c9708a4d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Green.prefab using Guid(c840387747cb48f409bf9c9708a4d90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d243697b76a9f2ffcecc7dcc657208') in 0.036088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Red Crushed.prefab
+  artifactKey: Guid(c8123449a980e6c438fa9bb06277785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Red Crushed.prefab using Guid(c8123449a980e6c438fa9bb06277785a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc2e4da4a7bd6345d7b0ca363c04a3') in 0.031718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Green Crushed.prefab
+  artifactKey: Guid(f02a92e1ab7d32d4fad570cd12c80c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mess Maker Free/Prefabs/Low Poly/Cans/Soda Can Green Crushed.prefab using Guid(f02a92e1ab7d32d4fad570cd12c80c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec85a2c28e0ed0ebfd2f2856eea1680') in 0.017382 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
