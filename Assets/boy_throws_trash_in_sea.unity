@@ -260,6 +260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7471667463968808569, guid: 6288313a6a65fad4bbb68687be0c0c57, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6288313a6a65fad4bbb68687be0c0c57, type: 3}
 --- !u!1001 &346191662
@@ -272,6 +276,10 @@ PrefabInstance:
     - target: {fileID: 924935055946310828, guid: 57a334e30ddbb21469c98b6ebf5fa7c9, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red Broke
+      objectReference: {fileID: 0}
+    - target: {fileID: 5868107043273938280, guid: 57a334e30ddbb21469c98b6ebf5fa7c9, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 57a334e30ddbb21469c98b6ebf5fa7c9, type: 3}
       propertyPath: m_RootOrder
@@ -331,6 +339,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57a334e30ddbb21469c98b6ebf5fa7c9, type: 3}
+--- !u!1 &369470333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895292089293134049, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
+  m_PrefabInstance: {fileID: 2064458482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &369470334
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369470333}
+  serializedVersion: 2
+  m_Mass: 5
+  m_Drag: 0.2
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &424969113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -467,6 +496,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -33.884
       objectReference: {fileID: 0}
+    - target: {fileID: 8278335166772883866, guid: 53cd7359f481927469e4321600596c6b, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53cd7359f481927469e4321600596c6b, type: 3}
 --- !u!1001 &672354905
@@ -476,6 +509,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: -6743811183364938898, guid: 3d33348b9920c1f4e953defda3545a6a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3230034147011233538, guid: 3d33348b9920c1f4e953defda3545a6a, type: 3}
       propertyPath: m_Name
       value: Beer Can Red
@@ -545,6 +582,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: -5140751445081918177, guid: 6b52fdac14b689b4bb073d05d46c6335, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7793023651675049704, guid: 6b52fdac14b689b4bb073d05d46c6335, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -614,6 +655,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: -3178013694214058986, guid: 7f725a7b906170448aa25252038afb3a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769234, guid: 7f725a7b906170448aa25252038afb3a, type: 3}
       propertyPath: m_Name
       value: Half Eaten Cheeseburger
@@ -676,6 +721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f725a7b906170448aa25252038afb3a, type: 3}
+--- !u!1 &964934470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2715566404302941441, guid: 20ac4b7357af53c48a680636fa9c5616, type: 3}
+  m_PrefabInstance: {fileID: 1464910913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &984039096
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +896,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1148240705 stripped
 GameObject:
@@ -870,6 +920,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -4535460089766026789, guid: e43f00cf9bac64d49b174981907f07c4, type: 2}
     value: {fileID: 1148240708}
+  - key: {fileID: -8950293056829006084, guid: e43f00cf9bac64d49b174981907f07c4, type: 2}
+    value: {fileID: 1148240708}
+  - key: {fileID: -2520215996962853735, guid: e43f00cf9bac64d49b174981907f07c4, type: 2}
+    value: {fileID: 1456374909}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &1148240708 stripped
@@ -877,6 +931,22 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 20ac4b7357af53c48a680636fa9c5616, type: 3}
   m_PrefabInstance: {fileID: 1464910913}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148240710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148240705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c37f49568baa0db46bf778f38a1f3e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 369470333}
+  IK_weight: 0
+  hand: {fileID: 964934470}
+  let_it_go: 0
 --- !u!1001 &1166768293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -884,6 +954,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: 113616437297604883, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 937326242163579350, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed
@@ -953,6 +1027,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: -1682180740487042471, guid: 1710829442f9c9d4eb7b72a86cb006b8, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: 1710829442f9c9d4eb7b72a86cb006b8, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1082,6 +1160,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7471667463968808569, guid: 6288313a6a65fad4bbb68687be0c0c57, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6288313a6a65fad4bbb68687be0c0c57, type: 3}
 --- !u!1001 &1419837969
@@ -1091,6 +1173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: 3012452912360831167, guid: adffeaf7a5f1f6a49b3d7d275ca84f2e, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3406732096623023888, guid: adffeaf7a5f1f6a49b3d7d275ca84f2e, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Blue with Label
@@ -1220,6 +1306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 1737265751692972814, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
 --- !u!1 &1456374906 stripped
@@ -1246,9 +1336,7 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -8487108737578357987, guid: 782d4898df868834db1805165ed44e30, type: 2}
-    value: {fileID: 1456374909}
+  m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
 --- !u!95 &1456374909
@@ -2807,6 +2895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: -3178013694214058986, guid: 7f725a7b906170448aa25252038afb3a, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6143752882634769234, guid: 7f725a7b906170448aa25252038afb3a, type: 3}
       propertyPath: m_Name
       value: Half Eaten Cheeseburger (1)
@@ -2932,7 +3024,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2049501465
 PrefabInstance:
@@ -3001,6 +3093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 1737265751692972814, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
 --- !u!1001 &2053140785
@@ -3010,6 +3106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157310099}
     m_Modifications:
+    - target: {fileID: 1332314560172780016, guid: 7899e43a811a2fe43ad1dea14f502569, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6913623427527270190, guid: 7899e43a811a2fe43ad1dea14f502569, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3101,19 +3201,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -588.6
+      value: -581
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -39.4
+      value: -39.399986
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 100.9
+      value: 100.89966
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7433411
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3121,7 +3221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.6689126
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalRotation.z
@@ -3133,7 +3233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -83.966
       objectReference: {fileID: 0}
     - target: {fileID: 3097178096927445802, guid: ced76c4c808f0c24aafdd0e0cb055653, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3241,12 +3341,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107393473}
-  m_LocalRotation: {x: 0.16447206, y: -0.638953, z: 0.14240639, w: 0.7378404}
-  m_LocalPosition: {x: 3771.0112, y: 137.41531, z: 1582.5442}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.16153304, y: -0.69557494, z: 0.16513392, w: 0.68030393}
+  m_LocalPosition: {x: -237.3706, y: 232.13966, z: 54.960938}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1456374907}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2107393480
