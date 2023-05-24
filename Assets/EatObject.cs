@@ -18,7 +18,12 @@ private bool visible = false;
 private bool endszene = false;
 public Transform target;
 public float speed = 5f;
+public Renderer objectRenderer;
+public float blinkInterval = 100f;
+private bool isBlinking = false;
+
 void Update(){
+
     Vector3 directionToMove = targetPosition - transform.position;
     directionToMove = directionToMove.normalized * Time.deltaTime * moveSpeed;
     float maxDistance = Vector3.Distance(transform.position, targetPosition);
@@ -27,12 +32,16 @@ void Update(){
     if (targetPosition == transform.position)
             {
                 objectToDisappear.SetActive(visible);
+                objectRenderer.material.color = Color.white;
+                Debug.Log("StartBlinking");
+                StartBlinking();
                 StartCoroutine(WaitAndContinue());
             }
     if (endszene == true)
     {
       if (rotating2){
-
+        OnDestroy();
+        OnDestroy();
         transform.Rotate(Vector3.right, rotationSpeed2 * Time.deltaTime);
         currentRotation2 += rotationSpeed2 * Time.deltaTime;
         if (currentRotation2 >= 90f)
@@ -44,9 +53,6 @@ void Update(){
       float distance = Vector3.Distance(transform.position, target.position);
 
       if (target == null) return;
-
-
-
 
       if (distance > 0)
       {
@@ -77,14 +83,53 @@ void Update(){
           }
     IEnumerator WaitAndContinue2()
           {
-            yield return new WaitForSeconds(16.9f);
+            yield return new WaitForSeconds(16.8f);
             visible = true;
             StartCoroutine(WaitAndContinue3());
           }
 
     IEnumerator WaitAndContinue3(){
+      OnDestroy();
+      objectRenderer.material.color = Color.white;
       yield return new WaitForSeconds(10f);
       Debug.Log("now start Rotation again");
       endszene = true;
     }
+
+    private void StartBlinking()
+    {
+        if (objectRenderer == null)
+        {
+            objectRenderer = GetComponent<Renderer>();
         }
+
+        if (objectRenderer != null)
+        {
+            isBlinking = true;
+            if (isBlinking){
+              InvokeRepeating("ToggleObjectColor", 0f, blinkInterval);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Object Renderer not found!");
+        }
+    }
+
+    private void ToggleObjectColor()
+    {
+      Color c = new Color(1.6f,0.4f,0f, 2f);
+      if (isBlinking) {
+        objectRenderer.material.color = Color.Lerp(Color.white, c, Mathf.PingPong(Time.time, 1));
+      }
+    }
+
+    private void OnDestroy()
+    {
+        if (isBlinking)
+        {
+            objectRenderer.material.color = Color.white;
+            CancelInvoke("ToggleObjectColor");
+        }
+    }
+}

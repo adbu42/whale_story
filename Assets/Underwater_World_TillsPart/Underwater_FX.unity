@@ -29842,7 +29842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371049179}
   m_LocalRotation: {x: 0.05536249, y: 0.80617785, z: -0.07641139, w: 0.5841007}
-  m_LocalPosition: {x: 7.301242, y: -1.7588086, z: 10.822893}
+  m_LocalPosition: {x: 1.54, y: 2.89, z: 12.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40829,6 +40829,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 164416, guid: 71d5b815a72184293b1c2534d55059ad, type: 3}
+      propertyPath: m_Name
+      value: MainSardineSkin
+      objectReference: {fileID: 0}
     - target: {fileID: 191064, guid: 71d5b815a72184293b1c2534d55059ad, type: 3}
       propertyPath: m_Name
       value: MainSardine
@@ -56426,6 +56430,8 @@ MonoBehaviour:
   rotationSpeed2: 30.03
   target: {fileID: 804587714}
   speed: 1
+  objectRenderer: {fileID: 1120416600}
+  blinkInterval: 50
 --- !u!114 &824031168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67567,6 +67573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2edfa4a89d7e6e4a92d53e0fcc2f9a2, type: 3}
+--- !u!137 &1120416600 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13721784, guid: 71d5b815a72184293b1c2534d55059ad, type: 3}
+  m_PrefabInstance: {fileID: 701180881}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1142158626
 GameObject:
   m_ObjectHideFlags: 0
